@@ -105,7 +105,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
-                    Toast.makeText(SignUpActivity.this, "email sent", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "mail sent", Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -21,4 +21,28 @@ public class UserProfile {
             this.category = null;
 
     }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public boolean isDisable() {
+        return isDisable;
+    }
+
+    public String getCategory() {
+        return category;
+    }
 }
